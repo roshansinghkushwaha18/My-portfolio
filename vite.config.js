@@ -52,7 +52,7 @@ function aiDevMiddleware() {
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './',
+  base: '/My-portfolio/',
   plugins: [react(), aiDevMiddleware()],
   build: {
     rollupOptions: {
