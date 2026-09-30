@@ -93,7 +93,7 @@ export default function Hero() {
           preload="metadata"
           className="w-full h-full object-cover object-center filter brightness-[0.85] contrast-[1.05] will-change-transform transform-gpu"
         >
-          <source src="/serene-cherry-blossom-tree.mp4" type="video/mp4" />
+          <source src={`${import.meta.env.BASE_URL}serene-cherry-blossom-tree.mp4`} type="video/mp4" />
         </video>
         {/* Soft Vignette: keeps tree branches & pink blossoms vivid while blending into dark theme */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#030712]/50 via-[#030712]/20 to-[#030712]" />

@@ -40,8 +40,8 @@ When I'm not auditing campaigns or analyzing GA4 data, I continuously experiment
     twitter: "https://x.com/roshan_sin85047",
   },
 
-  resumeUrl: "/resume.pdf", /* Place your resume in /public/resume.pdf */
-  profileImage: "/roshan-photo.jpg",
+  resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`, /* Place your resume in /public/resume.pdf */
+  profileImage: `${import.meta.env.BASE_URL}roshan-photo.jpg`,
 
   quickStats: [
     { value: "1k+", label: "Target Audience Reached" },

@@ -24,7 +24,7 @@ export const siteConfig = {
   email: "roshanku7521@gmail.com",
   phone: "+91 7521911901",
   location: "Lovely Professional University, Phagwara, Punjab, India",
-  resumePdfUrl: "/resume.pdf",
+  resumePdfUrl: `${import.meta.env.BASE_URL}resume.pdf`,
 
   // 5. Social Links
   socials: {

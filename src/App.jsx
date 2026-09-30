@@ -92,6 +92,7 @@ function AnimatedRoutes() {
             </React.Suspense>
           }
         />
+        <Route path="*" element={<MainPortfolio />} />
       </Routes>
     </AnimatePresence>
   );
@@ -132,7 +133,7 @@ export default function App() {
 
   return (
     <LanguageProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         {/* Futuristic Initial Boot Loader */}
         <LoadingScreen onLoadingComplete={() => setLoadingComplete(true)} />
 
